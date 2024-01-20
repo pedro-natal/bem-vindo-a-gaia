@@ -1,3 +1,96 @@
-html{
-    background-color: ;
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+MAIN COLOR (LOGO): #FFF6B9
+OTHER COLORS: 
+#343a40 
+
+#331AC7
+
+#13BA58
+
+#D6000E
+
+#FFDB2D
+
+#FF8315
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tomorrow", sans-serif;
+  border: none;
+  outline: none;
+}
+
+html {
+  background-color: #fff6b9;
+  color: #343a40;
+}
+
+.container {
+  width: 400px;
+  height: 500px;
+  margin: 50px auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+
+  align-items: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+img {
+  height: 200px;
+}
+
+button {
+  background-color: #e05929;
+  text-decoration: none;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 16px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #d15326;
+}
+
+.logo {
+  position: absolute;
+  height: 125px;
+  bottom: 32px;
 }
