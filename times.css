@@ -5,17 +5,21 @@
   font-family: "Tomorrow", sans-serif;
   border: none;
   outline: none;
+  overflow: hidden;
 }
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+
+  background-size: cover;
 }
 
 h2 {
+  padding: 4px 0;
   text-align: center;
-  color: #e05929;
+  color: #f1f3f5;
 }
 
 .container {
@@ -27,4 +31,22 @@ h2 {
 
 img {
   padding-bottom: 8px;
+}
+
+.brush {
+  height: 100px;
+  margin-left: 30px;
+}
+
+.brush-container {
+  position: relative;
+}
+
+p {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 600;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -120%);
 }
