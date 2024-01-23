@@ -87,6 +87,7 @@ button {
 
 button:hover {
   background-color: #d15326;
+  cursor: pointer;
 }
 
 .logo {
