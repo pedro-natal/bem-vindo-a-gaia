@@ -370,6 +370,9 @@ function redirecionarParaPagina(time) {
     case "Azul":
       window.location.href = "time-azul.html";
       break;
+    case "Laranja":
+      window.location.href = "time-azul.html";
+      break;
     default:
       alert("Time não reconhecido.");
       break;
